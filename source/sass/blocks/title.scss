@@ -1,15 +1,6 @@
 .title {
   font-weight: 700;
-  font-size: 18px;
+  font-size: 40px;
   line-height: 100%;
-
-  @include media-tablet {
-    font-size: 22px;
-    line-height: 100%;
-  }
-
-  @include media-desktop {
-    font-size: 33px;
-    line-height: 100%;
-  }
+  color: red;
 }

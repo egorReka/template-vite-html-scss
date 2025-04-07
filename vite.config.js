@@ -81,6 +81,15 @@ export default {
         outputStyle: 'expanded',
         sourceMapContents: true,
         sourceMap: true,
+        logger: {
+          warn: function(message) {
+            console.warn(message);
+          },
+          error: function(error) {
+            console.error(error);
+          }
+        },
+        quietDeps: true
       }
     }
   },

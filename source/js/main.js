@@ -11,6 +11,11 @@ window.addEventListener('DOMContentLoaded', () => {
   // в load следует добавить скрипты, не участвующие в работе первого экрана
   window.addEventListener('load', () => {
 
+    document.querySelector('button').addEventListener('click', () => {
+      const h1 = document.querySelector('h1');
+      h1.textContent = 'Hello, World!';
+    });
+
   });
 });
 
