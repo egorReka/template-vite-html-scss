@@ -1,17 +1,17 @@
-/* FIX */
+@use '../bootstrap.scss' as *;
 
-// .container {
-//   max-width: 480px;
-//   margin: 0 auto;
-//   padding: 0 $padding-phone;
-
-//   @include media-tablet {
-//     max-width: 900px;
-//     padding: 0 $padding-tablet;
-//   }
-
-//   @include media-desktop {
-//     width: $width-desktop - 2 * $padding-desktop;
-//     padding: 0 $padding-desktop;
-//   }
-// }
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 60px;
+  
+    @include vp-1023 {
+      padding: 0 40px;
+    }
+  
+    @include vp-767 {
+      padding: 0 25px;
+    }
+  }
+  

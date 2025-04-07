@@ -1,17 +1,19 @@
-/* Vendor */
-@import "vendor/normalize";
+// Vendor
+// ---------------------------------
 
-/* GLOBAL */
-@import "./bootstrap";
-@import "./global/global";
-@import "./global/fonts";
-@import "./global/visually-hidden";
-@import "./global/container";
+@use "vendor/normalize";
+// Swiper 8.4.7
+// @import "vendor/swiper";
 
-/* UI */
-@import "./ui/button";
-@import "./ui/title";
+// Global
+// ---------------------------------
 
-/* BLOCKS */
-@import "./blocks/page";
+@use "global/fonts";
+@use "global/reboot";
+@use "global/utils";
+@use "global/container";
 
+// Blocks
+// ---------------------------------
+
+@use "blocks/button";

@@ -1,26 +1,33 @@
-/* Light */
-@font-face {
-  font-display: swap;
-  font-family: "Manrope";
-  font-style: normal;
-  font-weight: $font-weight-light;
-  src: url("../fonts/Manrope-Light.woff2") format("woff2");
-}
+// /* roboto-condensed-200 - cyrillic */
+// @font-face {
+//   font-display: swap;
+//   font-family: "Roboto Condensed";
+//   font-style: normal;
+//   font-weight: 200;
+//   src:
+//     url("../fonts/roboto-condensed-v27-cyrillic-200.woff2") format("woff2"),
+//     url("../fonts/roboto-condensed-v27-cyrillic-200.woff") format("woff");
+// }
 
-/* Regular */
-@font-face {
-  font-display: swap;
-  font-family: "Manrope";
-  font-style: normal;
-  font-weight: $font-weight-regular;
-  src: url("../fonts/Manrope-Regular.woff2") format("woff2");
-}
+// /* roboto-condensed-300 - cyrillic */
+// @font-face {
+//   font-display: swap;
+//   font-family: "Roboto Condensed";
+//   font-style: normal;
+//   font-weight: 300;
+//   src:
+//     url("../fonts/roboto-condensed-v27-cyrillic-300.woff2") format("woff2"),
+//     url("../fonts/roboto-condensed-v27-cyrillic-300.woff") format("woff");
+// }
 
-/* Medium */
-@font-face {
-  font-display: swap;
-  font-family: "Manrope";
-  font-style: normal;
-  font-weight: $font-weight-medium;
-  src: url("../fonts/Manrope-Medium.woff2") format("woff2");
-}
+
+
+// @font-face {
+//   font-style: normal;
+//   font-weight: 400;
+//   font-family: "Rouble";
+
+//   font-display: swap;
+//   src:
+//     url("../fonts/rouble.woff2") format("woff2");
+// }

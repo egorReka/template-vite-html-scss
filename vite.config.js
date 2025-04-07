@@ -75,7 +75,14 @@ export default {
 
   // Настройки CSS
   css: {
-    devSourcemap: true // Генерировать source maps для CSS
+    devSourcemap: true, // Генерировать source maps для CSS
+    preprocessorOptions: {
+      scss: {
+        outputStyle: 'expanded',
+        sourceMapContents: true,
+        sourceMap: true,
+      }
+    }
   },
 
   // Основные настройки проекта
@@ -86,6 +93,10 @@ export default {
   },
   base: './', // Базовый путь для всех ресурсов
   server: {
-    port: 3000, // Порт для dev-сервера
+    port: 3000,
+    watch: {
+      usePolling: true,
+      interval: 100,
+    }
   }
 };
