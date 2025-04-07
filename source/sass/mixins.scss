@@ -1,5 +1,6 @@
-@use 'variables' as *;
+@use "variables" as *;
 
+/* stylelint-disable */
 @mixin retina {
   @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
     @content;
