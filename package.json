@@ -17,12 +17,15 @@
     "stylelint": "stylelint \"source/sass/**/*.scss\" --fix",
     "lint-js": "eslint source/js --fix",
     "ls-lint": "ls-lint",
-    "editorconfig": "editorconfig-cli"
+    "editorconfig": "editorconfig-cli",
+    "favicon": "node favicon-generator.js"
   },
   "devDependencies": {
     "@htmlacademy/editorconfig-cli": "3.0.0",
     "@linthtml/linthtml": "^0.9.6",
     "@ls-lint/ls-lint": "2.2.2",
+    "@realfavicongenerator/generate-favicon": "^0.4.16",
+    "@realfavicongenerator/image-adapter-node": "^0.4.16",
     "@spiriit/vite-plugin-svg-spritemap": "2.2.4",
     "@vitest/ui": "0.34.7",
     "autoprefixer": "10.4.19",
