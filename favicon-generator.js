@@ -72,19 +72,24 @@ async function generateFavicons() {
 
     for (const [filename, content] of Object.entries(files)) {
       try {
-        const targetPath = filename === 'favicon.ico' 
+        const targetPath = filename === 'favicon.ico'
           ? path.join('source', 'public', filename)
           : path.join('source', 'favicon', filename);
 
         await fs.writeFile(targetPath, content, 'binary');
+
+        // eslint-disable-next-line no-console
         console.log(`Файл ${filename} успешно создан`);
       } catch (err) {
+        // eslint-disable-next-line no-console
         console.error(`Ошибка при создании файла ${filename}:`, err);
       }
     }
 
+    // eslint-disable-next-line no-console
     console.log('Фавиконки успешно сгенерированы!');
   } catch (error) {
+    // eslint-disable-next-line no-console
     console.error('Ошибка при генерации фавиконок:', error);
   }
 }

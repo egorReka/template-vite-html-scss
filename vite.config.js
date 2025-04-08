@@ -83,9 +83,11 @@ export default {
         sourceMap: true,
         logger: {
           warn: function(message) {
+            // eslint-disable-next-line no-console
             console.warn(message);
           },
           error: function(error) {
+            // eslint-disable-next-line no-console
             console.error(error);
           }
         },
