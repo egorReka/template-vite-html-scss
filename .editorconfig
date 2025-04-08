@@ -35,3 +35,6 @@ insert_final_newline = unset
 
 [**.{css,scss,js,ts,json,html}]
 end_of_line = lf
+
+[*.svg]
+insert_final_newline = false
